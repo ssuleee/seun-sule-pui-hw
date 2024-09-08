@@ -15,20 +15,20 @@
 }
 
 /* w3schools for refrenece */
-.orginal-product-page-img{
+.orginal-product-page-img,.orginal-bunbun-product-details-img,.orginal-product-gallery-img{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+
   }
 
-  .original-prodcuts-text,.original-cart-text,.original-sentence-right-under-cart-text,.original-shopping-cart-text{
+  .original-prodcuts-text,.original-cart-text,.original-sentence-right-under-cart-text,.original-shopping-cart-text,.original-under-image-shopping-cart-text,.original-line-break-shopping-cart-text{
     text-align: center;
   }
 
   .original-index-text,.original-index-price-text{
   text-align: left;
-  padding-left: 25%;
+  padding-left: 40%;
 
   }
 
@@ -46,3 +46,10 @@
 .original-shopping-cart-text{
 line-height: 4.5;
 }
+
+.orginal-product-page-img,.orginal-bunbun-product-details-img,.orginal-product-gallery-img {
+    border: 3px solid black;
+    
+}
+    
+  
