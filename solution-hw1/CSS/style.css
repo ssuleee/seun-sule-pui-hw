@@ -1,12 +1,9 @@
-/* Style for images inside the .logo div */
 .logo-img {
     width: 400px;
 }
 
-/* Style for images inside the #original div */
 .orginal-product-page-img {
     width: 300px;
-    /* height: 100px; */
 }
 
 .orginal-bunbun-product-details-img {
@@ -15,4 +12,37 @@
 
 .orginal-product-gallery-img {
     width : 200px;
+}
+
+/* w3schools for refrenece */
+.orginal-product-page-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  .original-prodcuts-text,.original-cart-text,.original-sentence-right-under-cart-text,.original-shopping-cart-text{
+    text-align: center;
+  }
+
+  .original-index-text,.original-index-price-text{
+  text-align: left;
+  padding-left: 25%;
+
+  }
+
+
+.original-prodcuts-details-text{
+
+    text-align: center;
+    align-items: center;
+
+}
+.original-index-text{
+    text-decoration: underline;
+}
+
+.original-shopping-cart-text{
+line-height: 4.5;
 }
