@@ -1,0 +1,18 @@
+/* Style for images inside the .logo div */
+.logo-img {
+    width: 400px;
+}
+
+/* Style for images inside the #original div */
+.orginal-product-page-img {
+    width: 300px;
+    /* height: 100px; */
+}
+
+.orginal-bunbun-product-details-img {
+    width : 600px;
+}
+
+.orginal-product-gallery-img {
+    width : 200px;
+}
