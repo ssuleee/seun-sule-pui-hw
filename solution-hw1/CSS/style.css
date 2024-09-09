@@ -88,7 +88,7 @@ select {
     background-color: yellow; 
 }
 
-/* Asked classmate for help */
+/* Asked classmate for help with putting highlight within just the image and text*/
 .cinnammon-item{
     padding: 5px;
     max-width: fit-content;
@@ -107,6 +107,8 @@ select {
     margin: 5px 0; 
 }
 
+/* 
+helps with drop down container  */
 .dropdown-container {
     display: flex;
     flex-direction: column; 
@@ -115,6 +117,7 @@ select {
     margin-right: auto;
    
 }
+
 
 
 .checkout {
@@ -166,6 +169,7 @@ select {
 .original-cart-text a:hover {
     background-color: yellow; 
 }
+
 .cinnammon-item p {
     color: black; 
     text-decoration: none; 
@@ -174,7 +178,7 @@ select {
 }
 
 
-
+/* helps with the button from add to cart in product details */
 .add-to-cart {
     background-color: white;
     color: black; 
