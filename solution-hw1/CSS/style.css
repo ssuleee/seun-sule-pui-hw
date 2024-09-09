@@ -58,9 +58,17 @@
 
 
 }
-.original-index-text{
-    text-decoration: underline;
-}
+
+/* im having trouble left aligning this but keeping it centered */
+/* .wrap-whole-picture-together .original-products-details-text p {
+  
+   justify-content: center;
+  text-align: left;
+
+}  */
+
+
+
 
 .original-shopping-cart-text{
 line-height: 4.5;
@@ -71,15 +79,16 @@ line-height: 4.5;
     
 }
 select {
-    margin-bottom: 20px; /* Space between selects */
-    padding: 5px; /* Space inside the select box */
-    font-size: 16px; /* Increase font size for better readability */
+    margin-bottom: 20px; 
+    padding: 5px; 
+    font-size: 16px; 
 }
 .cinnammon-item:hover {
 
-    background-color: yellow; /* Highlight background on hover */ 
+    background-color: yellow; 
 }
 
+/* Asked classmate for help */
 .cinnammon-item{
     padding: 5px;
     max-width: fit-content;
@@ -89,13 +98,13 @@ select {
 }
 
 .orginal-product-page-img {
-    max-width: 100%; /* Ensures the image scales properly within the container */
-    height: auto; /* Maintains aspect ratio */
+    max-width: 100%; 
+    height: auto; 
 }
 
 .original-index-text, 
 .original-index-price-text {
-    margin: 5px 0; /* Adds spacing between elements */
+    margin: 5px 0; 
 }
 
 .dropdown-container {
@@ -109,21 +118,21 @@ select {
 
 
 .checkout {
-    background-color: white; /* White background */
-    color: black; /* Black text color */
-    border: 2px solid black; /* Black border */
-    padding: 12px 24px; /* More padding: vertical horizontal */
-    font-weight: bold; /* Optional: Make text bold */
-    cursor: pointer; /* Pointer cursor on hover */
-    border-radius: 0; /* No rounded corners for a rectangular shape */
-    text-align: center; /* Center text inside the button */
-    display: inline-block; /* Ensure button fits its content */
+    background-color: white; 
+    color: black; 
+    border: 2px solid black; 
+    padding: 12px 24px; 
+    font-weight: bold; 
+    cursor: pointer; 
+    border-radius: 0; 
+    text-align: center; 
+    display: inline-block; 
 }
 
-/* Hover effect for button */
+
 .checkout:hover {
-    background-color:yellow; /* Light gray background on hover */
-    border-color: #333; /* Darker border color on hover */
+    background-color:yellow; 
+    border-color: black; 
 }
 
 .container {
@@ -132,68 +141,68 @@ select {
 }
 
 
-/* Style for links inside original-products-text */
+
 .original-products-text a {
-    color: black; /* Set text color to black */
-    text-decoration: none; /* Remove underline */
-    padding: 5px 10px; /* Add padding around the text */
-    display: inline-block; /* Ensure padding is applied correctly */
+    color: black; 
+    text-decoration: none; 
+    padding: 5px 10px; 
+    display: inline-block; 
 }
 
-/* Hover effect for the link text */
+
 .original-products-text a:hover {
-    background-color: yellow; /* Highlight the link text on hover */
+    background-color: yellow; 
 }
 
-/* Style for links inside original-cart-text */
+
 .original-cart-text a {
-    color: black; /* Set text color to black */
-    text-decoration: none; /* Remove underline */
-    padding: 5px 10px; /* Add padding around the text */
-    display: inline-block; /* Ensure padding is applied correctly */
+    color: black; 
+    text-decoration: none; 
+    padding: 5px 10px; 
+    display: inline-block; 
 }
 
-/* Hover effect for the link text */
+
 .original-cart-text a:hover {
-    background-color: yellow; /* Highlight the link text on hover */
+    background-color: yellow; 
 }
 .cinnammon-item p {
-    color: black; /* Set text color to black */
-    text-decoration: none; /* Remove underline */
-    padding: 5px 10px; /* Add padding around the text */
-    display: inline-block; /* Ensure padding is applied correctly */
+    color: black; 
+    text-decoration: none; 
+    padding: 5px 10px; 
+    display: inline-block; 
 }
 
 
 
 .add-to-cart {
-    background-color: white; /* White background */
-    color: black; /* Black text color */
-    border: 2px solid black; /* Black border */
-    padding: 12px 24px; /* More padding: vertical horizontal */
-    font-weight: bold; /* Optional: Make text bold */
-    cursor: pointer; /* Pointer cursor on hover */
-    border-radius: 0; /* No rounded corners for a rectangular shape */
-    text-align: center; /* Center text inside the button */
-    display: inline-block; /* Ensure button fits its content */
+    background-color: white;
+    color: black; 
+    border: 2px solid black; 
+    padding: 12px 24px; 
+    font-weight: bold; 
+    cursor: pointer; 
+    border-radius: 0; 
+    text-align: center; 
+    display: inline-block; 
     text-decoration: none;
 }
 
-/* Hover effect for button */
+
 .add-to-cart:hover {
-    background-color:yellow; /* Light gray background on hover */
-    border-color: #333; /* Darker border color on hover */
+    background-color:yellow; 
+    border-color: black;
 }
 
 .add-box-together {
-    display: flex; /* Enable flexbox layout */
-    align-items: center; /* Vertically center items */
-    gap: 10px; /* Space between items */
+    display: flex; 
+    align-items: center; 
+    gap: 10px; 
     justify-content: center;
 }
 
 .add-box-together p {
-    margin: 0; /* Remove default margin */
+    margin: 0; 
 }
 
 
