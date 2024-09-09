@@ -39,11 +39,15 @@
 
   }
 
+
   .cinnammon-item:hover .original-index-text{
     font-weight: bold;
 
   }
 
+  .cinnammon-item .original-index-text p {
+    text-decoration: underline;
+}
 
 .original-products-details-text{
     text-align: center;
@@ -191,4 +195,5 @@ select {
 .add-box-together p {
     margin: 0; /* Remove default margin */
 }
+
 
