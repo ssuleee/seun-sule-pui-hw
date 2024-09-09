@@ -35,8 +35,9 @@
 
 .original-prodcuts-details-text{
 
-    text-align: center;
+    text-align: left;
     align-items: center;
+    padding-left: 45%;
 
 }
 .original-index-text{
@@ -51,5 +52,45 @@ line-height: 4.5;
     border: 3px solid black;
     
 }
-    
-  
+select {
+    margin-bottom: 20px; /* Space between selects */
+    padding: 5px; /* Space inside the select box */
+    font-size: 16px; /* Increase font size for better readability */
+}
+.cinnammon-item:hover {
+    background-color: yellow; /* Highlight background on hover */
+}
+
+.orginal-product-page-img {
+    max-width: 100%; /* Ensures the image scales properly within the container */
+    height: auto; /* Maintains aspect ratio */
+}
+
+.original-index-text, 
+.original-index-price-text {
+    margin: 5px 0; /* Adds spacing between elements */
+}
+
+.dropdown-container {
+    display: flex;
+    flex-direction: column; 
+    padding-left: 45%;
+    max-width: 200px;
+}
+
+
+.checkout {
+    text-align: center;
+    padding-left: 55px;
+}
+.original-line-break-shopping-cart-text{
+    background-color: white; /* White background */
+    color: black; /* Black text color */
+    border: 2px solid black; /* Black border */
+    padding: 12px 24px; /* More padding: vertical horizontal */
+    font-size: 16px; /* Adjust font size */
+    font-weight: bold; /* Optional: Make text bold */
+    cursor: pointer; /* Pointer cursor on hover */
+    border-radius: 4px; /* Optional: Rounded corners */
+    transition: background-color 0.3s, border-color 0.3s; /* Smooth transition */
+}
