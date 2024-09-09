@@ -26,10 +26,21 @@
     text-align: center;
   }
 
-  .original-index-text,.original-index-price-text{
+
+ .original-index-price-text{
+    text-align: left;
+    padding-left:auto;
+  
+    }
+
+  .original-index-text {
   text-align: left;
   padding-left:auto;
-  font-weight: bold;
+
+  }
+
+  .cinnammon-item:hover .original-index-text{
+    font-weight: bold;
 
   }
 
@@ -40,7 +51,7 @@
     width:400px;
     margin-right: auto;
     margin-left: auto;
-    /* padding-left: 45%; */
+
 
 }
 .original-index-text{
@@ -86,7 +97,6 @@ select {
 .dropdown-container {
     display: flex;
     flex-direction: column; 
-    /* padding-left: 45%; */
     max-width: 200px;
     margin-left: auto;
     margin-right: auto;
