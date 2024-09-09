@@ -22,7 +22,7 @@
 
   }
 
-  .original-prodcuts-text,.original-cart-text,.original-sentence-right-under-cart-text,.original-shopping-cart-text,.original-under-image-shopping-cart-text,.original-line-break-shopping-cart-text{
+  .original-products-text,.original-cart-text,.original-sentence-right-under-cart-text,.original-shopping-cart-text,.original-under-image-shopping-cart-text,.original-line-break-shopping-cart-text{
     text-align: center;
   }
 
@@ -33,7 +33,7 @@
   }
 
 
-.original-prodcuts-details-text{
+.original-products-details-text{
 
     text-align: left;
     align-items: center;
@@ -87,7 +87,6 @@ select {
     font-weight: bold; /* Optional: Make text bold */
     cursor: pointer; /* Pointer cursor on hover */
     border-radius: 0; /* No rounded corners for a rectangular shape */
-    transition: background-color 0.3s, border-color 0.3s; /* Smooth transition */
     text-align: center; /* Center text inside the button */
     display: inline-block; /* Ensure button fits its content */
 }
@@ -101,4 +100,42 @@ select {
 .container {
     text-align: center; 
     
+}
+
+.checkout-box {
+    text-align: center;
+    padding-left: 50px;
+
+}
+
+/* Style for links inside original-products-text */
+.original-products-text a {
+    color: black; /* Set text color to black */
+    text-decoration: none; /* Remove underline */
+    padding: 5px 10px; /* Add padding around the text */
+    display: inline-block; /* Ensure padding is applied correctly */
+}
+
+/* Hover effect for the link text */
+.original-products-text a:hover {
+    background-color: yellow; /* Highlight the link text on hover */
+}
+
+/* Style for links inside original-cart-text */
+.original-cart-text a {
+    color: black; /* Set text color to black */
+    text-decoration: none; /* Remove underline */
+    padding: 5px 10px; /* Add padding around the text */
+    display: inline-block; /* Ensure padding is applied correctly */
+}
+
+/* Hover effect for the link text */
+.original-cart-text a:hover {
+    background-color: yellow; /* Highlight the link text on hover */
+}
+.cinnammon-item p {
+    color: black; /* Set text color to black */
+    text-decoration: none; /* Remove underline */
+    padding: 5px 10px; /* Add padding around the text */
+    display: inline-block; /* Ensure padding is applied correctly */
 }
