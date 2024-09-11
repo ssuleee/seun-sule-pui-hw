@@ -1,0 +1,282 @@
+.logo-img {
+    width: 400px;
+}
+
+.orginal-product-page-img {
+    width: 300px;
+}
+
+.orginal-bunbun-product-details-img {
+    width : 600px;
+}
+
+.orginal-product-gallery-img {
+    width : 200px;
+}
+
+/* w3schools for refrenece */
+.orginal-product-page-img,.orginal-bunbun-product-details-img,.orginal-product-gallery-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+
+  .original-products-text,.original-cart-text,.original-sentence-right-under-cart-text,.original-shopping-cart-text,.original-under-image-shopping-cart-text,.original-line-break-shopping-cart-text{
+    text-align: center;
+  }
+
+
+ .original-index-price-text{
+    text-align: left;
+    padding-left:auto;
+  
+    }
+
+  .original-index-text {
+  text-align: left;
+  padding-left:auto;
+
+  }
+
+
+  .cinnammon-item:hover .original-index-text{
+    font-weight: bold;
+
+  }
+
+  .cinnammon-item .original-index-text p {
+    text-decoration: underline;
+}
+
+.original-products-details-text{
+    text-align: center;
+    align-items: center;
+    width:400px;
+    margin-right: auto;
+    margin-left: auto;
+
+
+}
+
+/* im having trouble left aligning this but keeping it centered */
+/* .wrap-whole-picture-together .original-products-details-text p {
+  
+   justify-content: center;
+  text-align: left;
+
+}  */
+
+
+
+
+.original-shopping-cart-text{
+line-height: 4.5;
+}
+
+.orginal-product-page-img,.orginal-bunbun-product-details-img,.orginal-product-gallery-img {
+    border: 3px solid black;
+    
+}
+select {
+    margin-bottom: 20px; 
+    padding: 5px; 
+    font-size: 16px; 
+}
+.cinnammon-item:hover {
+
+    background-color: yellow; 
+}
+
+/* Asked classmate for help with putting highlight within just the image and text*/
+.cinnammon-item{
+    padding: 5px;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.orginal-product-page-img {
+    max-width: 100%; 
+    height: auto; 
+}
+
+.original-index-text, 
+.original-index-price-text {
+    margin: 5px 0; 
+}
+
+/* 
+helps with drop down container  */
+.dropdown-container {
+    display: flex;
+    flex-direction: column; 
+    max-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+
+
+.checkout {
+    background-color: white; 
+    color: black; 
+    border: 2px solid black; 
+    padding: 12px 24px; 
+    font-weight: bold; 
+    cursor: pointer; 
+    border-radius: 0; 
+    text-align: center; 
+    display: inline-block; 
+}
+
+
+.checkout:hover {
+    background-color:yellow; 
+    border-color: black; 
+}
+
+.container {
+    text-align: center; 
+    
+}
+
+.original-products-text a {
+    color: black; 
+    text-decoration: none; 
+    padding: 5px 10px; 
+    display: inline-block; 
+}
+
+
+.original-products-text a:hover {
+    background-color: yellow; 
+}
+
+
+.original-cart-text a {
+    color: black; 
+    text-decoration: none; 
+    padding: 5px 10px; 
+    display: inline-block; 
+}
+
+
+.original-cart-text a:hover {
+    background-color: yellow; 
+}
+
+.cinnammon-item p {
+    color: black; 
+    text-decoration: none; 
+    padding: 5px 10px; 
+    display: inline-block; 
+}
+
+
+/* helps with the button from add to cart in product details */
+.add-to-cart {
+    background-color: white;
+    color: black; 
+    border: 2px solid black; 
+    padding: 12px 24px; 
+    font-weight: bold; 
+    cursor: pointer; 
+    border-radius: 0; 
+    text-align: center; 
+    display: inline-block; 
+    text-decoration: none;
+}
+
+
+.add-to-cart:hover {
+    background-color:yellow; 
+    border-color: black;
+}
+
+/* this is helping put my money and ad to cart next to each other */
+.add-box-together {
+    display: flex; 
+    align-items: center; 
+    gap: 10px; 
+    justify-content: center;
+}
+
+.add-box-together p {
+    margin: 0; 
+}
+
+
+/* this is helping put the my products and cart next to each other  */
+.index-container {
+    display: flex; 
+    align-items: center; 
+    gap: 10px; 
+    justify-content: center;
+}
+
+.index-container{
+    margin:0;
+}
+
+.header {
+    padding: 10px;
+    text-align: left; 
+}
+
+
+.navagation-container {
+    text-align: right;
+    padding-bottom: 10px;
+}
+
+.navagation-bar {
+    display: inline-block;
+}
+
+.navagation-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px; 
+}
+
+.navagation-item {
+    margin-top: 0px;
+
+}
+
+/* made link colors */
+.navagation-linking:hover {
+    text-decoration: none;
+    color: black; 
+    padding: 10px;
+
+}
+
+.navagation-linking:hover {
+    background-color: yellow; 
+    color: black; 
+}
+
+
+.logo-line-break-container {
+    display: flex;
+    align-items: center;
+    margin-top: 10px; 
+}
+
+/* help with the logo to shrink  */
+.logo-container {
+    flex-shrink: 0; 
+}
+
+.divider {
+    flex: 1;
+    border: none;
+    border-top: 2px solid #333; 
+    margin-left: 10px; 
+}
