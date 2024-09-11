@@ -50,11 +50,12 @@
 }
 
 .original-products-details-text{
-    text-align: center;
+    text-align: left;
+    /* width:400px; */
     align-items: center;
-    width:400px;
-    margin-right: auto;
-    margin-left: auto;
+    line-height: 0;
+    /* margin-right: auto;
+    margin-left: auto; */
 
 
 }
@@ -283,5 +284,25 @@ helps with drop down container  */
 
     
 .orginal-bunbun-product-details-img {
-    
+    float: left;
+
+}
+
+.original-products-details-text{
+    text-align: left;
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+   
+
+}
+
+.dropdown-container {
+    border-style:solid ;
+    display: flex;
+}
+
+.add-box-together{
+border-style: solid;
+display: flex;
 }
