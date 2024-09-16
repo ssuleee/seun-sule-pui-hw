@@ -231,6 +231,8 @@ helps with drop down container  */
 .navagation-container {
     text-align: right;
     padding-bottom: 10px;
+    align-items: right;
+    width: 90%;
 }
 
 .navagation-bar {
@@ -239,12 +241,14 @@ helps with drop down container  */
 
 .navagation-list {
     list-style-type: none;
-    padding: 0;
-    margin: 0;
     display: flex;
-    gap: 20px; 
+    gap: 10px; 
 }
 
+.navagation-item{
+    margin: 10px;
+
+}
 
 /* made link colors */
 .navagation-linking:hover {
@@ -262,15 +266,17 @@ helps with drop down container  */
 
 
 .logo-line-break-container {
-    display: flex;
-    align-items: center;
     margin-top: 10px; 
+    display:flex;
 }
 
 /* help with the logo to shrink  */
 .logo-container {
-    flex-shrink: 0; 
+    flex-shrink: 0;
+
 }
+
+
 
 .divider {
     flex: 1;
@@ -324,7 +330,7 @@ display: flex;
     display: flex;
     flex-direction: column; 
     align-items: flex-start;
-    text-align: left; /
+    text-align: left;
   }
   
   /* the width helps me size the image to make it bigger or smaller */
@@ -351,7 +357,6 @@ display: flex;
 
 .product-page-flex {
     display: flex;
-    /* justify-content: flex-end; */
 }
 
 .product-page-price-flex{
@@ -391,8 +396,8 @@ display: flex;
 .everything-wrapped {
     display: flex;
     flex-direction: row;
-    /* justify-content: space-between; */
 }
 .remove-with-picture  {
 padding-left: 400px;
 }
+
