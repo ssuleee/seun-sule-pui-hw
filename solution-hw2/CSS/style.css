@@ -22,7 +22,7 @@
 
   }
 
-  .original-products-text,.original-cart-text,.original-sentence-right-under-cart-text,.original-shopping-cart-text,.original-under-image-shopping-cart-text,.original-line-break-shopping-cart-text{
+  .original-products-text,.original-cart-text,.original-sentence-right-under-cart-text,.original-line-break-shopping-cart-text{
     text-align: center;
   }
 
@@ -140,7 +140,7 @@ helps with drop down container  */
 }
 
 .container {
-    text-align: center; 
+    text-align: right; 
     
 }
 
@@ -197,7 +197,7 @@ helps with drop down container  */
     border-color: black;
 }
 
-/* this is helping put my money and ad to cart next to each other */
+/* this is helping put my price and add to cart next to each other */
 .add-box-together {
     display: flex; 
     align-items: center; 
@@ -245,10 +245,6 @@ helps with drop down container  */
     gap: 20px; 
 }
 
-.navagation-item {
-    margin-top: 0px;
-
-}
 
 /* made link colors */
 .navagation-linking:hover {
@@ -260,8 +256,9 @@ helps with drop down container  */
 
 .navagation-linking:hover {
     background-color: yellow; 
-    color: black; 
 }
+
+
 
 
 .logo-line-break-container {
@@ -288,24 +285,24 @@ helps with drop down container  */
 
 }
 
-.original-products-details-text{
+
+  .original-products-details-text{
+    /* border-style: solid; */
     text-align: left;
-    border-style: solid;
     display: flex;
     flex-direction: column;
-   
 
-}
+} 
 
 .dropdown-container {
-    border-style:solid ;
+    /* border-style:solid ; */
     display: flex;
 }
 
 .add-box-together{
-border-style: solid;
+border-style: black;
 display: flex;
-}
+}  */
 
 .cinnammon-item{
     display: flex;
@@ -345,4 +342,57 @@ display: flex;
  } 
   
 
- 
+ .picture-content{
+    width: 600px;
+    height: 600px;
+    padding-left: 250px;
+    margin-right: 40px;
+ }
+
+.product-page-flex {
+    display: flex;
+    /* justify-content: flex-end; */
+}
+
+.product-page-price-flex{
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+    padding-right: 500px;
+}
+
+.remove-text-under-picture p {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.remove-text-under-picture{
+    display: flex;
+    text-align: right;
+}
+
+.orginal-product-gallery-img {
+    position:absolute;
+    left: 3;
+}
+
+.product-page-flex{
+    display: flex;
+    justify-content:center;
+}
+
+.right-wrapped{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+}
+
+.everything-wrapped {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+}
+.remove-with-picture  {
+padding-left: 400px;
+}
