@@ -366,7 +366,8 @@ display: flex;
     padding-right: 500px;
 }
 
-.remove-text-under-picture p {
+
+ .remove-text-under-picture p {
     text-decoration: underline;
     font-weight: bold;
 }
@@ -374,7 +375,7 @@ display: flex;
 .remove-text-under-picture{
     display: flex;
     text-align: right;
-}
+}    
 
 .orginal-product-gallery-img {
     position:absolute;
@@ -397,7 +398,10 @@ display: flex;
     display: flex;
     flex-direction: row;
 }
+
 .remove-with-picture  {
 padding-left: 400px;
-}
+margin-top: 40px;
+}   
+
 
