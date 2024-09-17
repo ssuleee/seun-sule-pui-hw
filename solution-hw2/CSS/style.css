@@ -60,16 +60,6 @@
 
 }
 
-/* im having trouble left aligning this but keeping it centered */
-/* .wrap-whole-picture-together .original-products-details-text p {
-  
-   justify-content: center;
-  text-align: left;
-
-}  */
-
-
-
 
 .original-shopping-cart-text{
 line-height: 4.5;
@@ -401,7 +391,5 @@ display: flex;
 
 .remove-with-picture  {
 padding-left: 400px;
-margin-top: 40px;
 }   
-
 
