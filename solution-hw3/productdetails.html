@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <title>Product Detail Page</title>
   <link rel="stylesheet" href="CSS/style.css">
+  <script defer src="price.js"></script>
 </head>
 
 <body>
@@ -58,33 +59,23 @@
 <!-- learned to create a dropdown from w3schools -->
 
 <div class="dropdown-container">
-<label for="Glazing"> Glazing:</label>
+    <label for="Glazing">Glazing:</label>
 
+    <select name="Glazing" id="glazing">
+    </select>
 
-<select name="Glazing" id="Glazing">
-  <option value="Keep original">Keep original</option>
-  <option value="Sugar milk">Sugar milk</option>
-  <option value="Vanilla milk">Vanilla milk</option>
-  <option value="Double chcoolate">Double chcoolate</option>
-</select>
+    <label for="pack-size">Pack size:</label>
 
-<label for="Pack size"> Pack size:</label>
-
-<select name="Pack size" id="pack size">
-  <option value="1">1</option>
-  <option value="3">3</option>
-  <option value="6">6</option>
-  <option value="12">12</option>
-</select>
+    <select name="pack-size-select" id="pack-size">
+    </select>
 </div>
 
 <div class="add-box-together">
-  <p> $2.49 </p>
-     <button class="add-to-cart">Add to Cart</button> 
-    <!-- <a href="shoppingcart.html" class="add-to-cart">Add to Cart</a> -->
+    <p>$2.49</p> 
+    <button class="add-to-cart">Add to Cart</button>
 </div>
 
-</div>
-</div>
+
+
 </body>
 </html>
