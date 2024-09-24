@@ -296,3 +296,40 @@ select {
   align-items: center;
   gap: 10px;
 }
+
+.all-product-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px;
+  align-items: center;
+}
+
+/* putting my content to the left, align items helps me put it to the left alongside my text align */
+.cinnammon-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+}
+
+/* the width helps me size the image to make it bigger or smaller */
+.orginal-product-page-img {
+  width: 400px;
+  height: auto;
+}
+
+/* helps me align my product name and price horizontally */
+.original-index-text,
+.original-index-price-text {
+  display: inline-block;
+  margin: 0;
+}
+
+.picture-content {
+  width: 600px;
+  height: 600px;
+  padding-left: 250px;
+  margin-right: 40px;
+}
