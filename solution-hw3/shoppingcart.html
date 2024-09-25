@@ -1,95 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Shopping Cart</title>
-  <link rel="stylesheet" href="CSS/style.css">
-</head>
-<body>
-
+  <head>
+    <meta charset="UTF-8" />
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="CSS/style.css" />
+  </head>
+  <body>
     <header class="header">
-        <div class="logo-line-break-container">
-            <div class = "logo-container">
-             <a href="index.html" class="logo">
-                 <img src="../assets/logo/logo-01.svg" alt="Bun Bun logo" class="logo-img" />
-             </a>
-            </div>
+      <div class="logo-line-break-container">
+        <div class="logo-container">
+          <a href="index.html" class="logo">
+            <img
+              src="../assets/logo/logo-01.svg"
+              alt="Bun Bun logo"
+              class="logo-img"
+            />
+          </a>
+        </div>
 
-             <div class="navagation-container">
-                 <nav class="navagation-bar">
-                     <ul class="navagation-list">
-                         <li class="navagation-item">
-                             <a href="index.html" class="navagation-linking">PRODUCTS</a>
-                         </li>
-                         <li class="navagation-item">
-                             <a href="shoppingcart.html" class="navagation-linking">CARTS</a>
-                         </li>
-                     </ul>
-                 </nav>
-                 <hr class="divider" />
-             </div>
-             <br>
-             
-         </div>
+        <div class="navagation-container">
+          <nav class="navagation-bar">
+            <ul class="navagation-list">
+              <li class="navagation-item">
+                <a href="index.html" class="navagation-linking">PRODUCTS</a>
+              </li>
+              <li class="navagation-item">
+                <a href="shoppingcart.html" class="navagation-linking">CARTS</a>
+              </li>
+            </ul>
+          </nav>
+          <hr class="divider" />
+        </div>
+        <br />
+      </div>
     </header>
 
     <div class="original-sentence-right-under-cart-text">
-        <p>Our hand-made cinnamon rolls</p>
+      <p>Our hand-made cinnamon rolls</p>
+    </div>
+    <div class="shop-cart-everything">
+      <div class="remove-with-picture">
+        <img
+          src="../assets/products/original-cinnamon-roll.jpg"
+          class="orginal-product-gallery-img"
+        />
+        <div class="remove-text-under-picture">
+          <p>Remove</p>
+        </div>
       </div>
-<div class="shop-cart-everything">
-<div class="remove-with-picture">
-<img src="../assets/products/original-cinnamon-roll.jpg" class="orginal-product-gallery-img"/>
-<div class="remove-text-under-picture">
-<p> Remove</p>
-</div>
-</div>
 
+      <!-- putting eveyrhting into a container -->
+      <div class="product-page-flex">
+        <div class="original-under-image-shopping-cart-text">
+          <p>Original Cinnamon Roll</p>
+          <p>Glazing: Keep original</p>
+          <p>Pack Size: 1</p>
+        </div>
+      </div>
 
-<!-- putting eveyrhting into a container -->
-<div class="product-page-flex"> 
-<div class="original-under-image-shopping-cart-text"> 
-<p> Original Cinnamon Roll</p>
-<p> Glazing: Keep original </p>
-<p> Pack Size: 1 </p>
-</div>
-</div>
+      <div class="product-page-price-flex">
+        <p>$ 2.49</p>
+      </div>
+    </div>
 
+    <div class="shop-cart-everything-to-move-long-text">
+      <div class="shop-cart-everything">
+        <div class="remove-with-picture">
+          <img
+            src="../assets/products/double-chocolate-cinnamon-roll.jpg"
+            class="orginal-product-gallery-img"
+          />
 
-<div class="product-page-price-flex"> 
-<p> $ 2.49 </p>
-</div>
-</div>
+          <div class="remove-text-under-picture">
+            <p>Remove</p>
+          </div>
+        </div>
 
-<div class="shop-cart-everything">
-<div class="remove-with-picture">
-<img src="../assets/products/double-chocolate-cinnamon-roll.jpg" class="orginal-product-gallery-img"/>
+        <div class="product-page-flex">
+          <div class="original-under-image-shopping-cart-text">
+            <p>Double Chocolate Cinnamon Roll</p>
+            <p>Glazing: Sugar milk</p>
+            <p>Pack Size: 6</p>
+          </div>
+        </div>
 
-<div class="remove-text-under-picture">
-    <p> Remove</p>
-</div>
-</div>
+        <div class="product-page-price-flex">
+          <p>$ 27.45</p>
+        </div>
+      </div>
+    </div>
 
+    <hr class="divider-shop" />
 
-<div class="product-page-flex"> 
-<div class="original-under-image-shopping-cart-text"> 
-<p> Double Chocolate Cinnamon Roll</p>
-<p> Glazing: Sugar milk </p>
-<p> Pack Size: 6 </p>
-</div>
-</div>
-
-<div class="product-page-price-flex"> 
-<p> $ 27.45 </p>
-</div>
-</div>
-<hr> </hr>
-
-<div class="container">
-    <p> Total: $ 29.94 </p>
-    <button class="checkout">Checkout</button>
-</div>
-
-
-
-</body>
+    <div class="container">
+      <div class="total-name">
+        <p>Total:</p>
+      </div>
+      <div class="total-price">
+        <p>$ 29.94</p>
+      </div>
+      <button class="checkout">Checkout</button>
+    </div>
+  </body>
 </html>

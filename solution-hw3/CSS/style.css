@@ -110,15 +110,15 @@ select {
 }
 
 .checkout {
+  display: block;
+  margin-left: auto; /* Push the checkout button to the right */
   background-color: white;
   color: black;
   border: 2px solid black;
   padding: 12px 24px;
   font-weight: bold;
   cursor: pointer;
-  border-radius: 0;
   text-align: center;
-  display: inline-block;
 }
 
 .checkout:hover {
@@ -128,6 +128,15 @@ select {
 
 .container {
   text-align: right;
+}
+
+.total-name {
+  margin-right: 500px;
+}
+
+.total-price {
+  display: flex; /* Use flexbox for price */
+  align-items: center; /* Center vertically */
 }
 
 .original-products-text a {
@@ -249,29 +258,17 @@ select {
   margin-left: 10px;
 }
 
-/* .product-page-price-flex {
-  padding-right: 50px;
-  padding-left: 50px;
-  border: 2px solid black;
-  margin-left: auto;
-  margin-right: auto;
-} */
-
 .remove-text-under-picture p {
   text-decoration: underline;
   font-weight: bold;
   text-align: center;
   padding-right: 140px;
-  border: 2px solid black;
 }
 
 .remove-with-picture {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* margin-left: 300px;
-  margin-bottom: 20px; */
-  border: 2px solid black;
 }
 
 .orginal-product-gallery-img {
@@ -284,8 +281,6 @@ select {
   display: flex;
   flex-direction: row;
   justify-content: right;
-
-  border: black;
 }
 
 .right-wrapped {
@@ -345,14 +340,12 @@ select {
 }
 
 .original-under-image-shopping-cart-text {
-  border: 2px solid black;
   display: flex;
   flex-direction: column;
   margin-bottom: 100px;
 }
 
 .shop-cart-everything {
-  border: 2px solid black;
   display: flex;
   flex-direction: column;
 }
@@ -362,7 +355,6 @@ select {
   flex-direction: row;
   justify-content: center; /* Center the content horizontally */
   align-items: center; /* Vertically center the content */
-  border: 2px solid black;
   padding: 10px;
 }
 
@@ -371,7 +363,6 @@ select {
   justify-content: center;
   align-items: center; /* Center the price flex vertically */
   padding: 0 20px;
-  border: 2px solid black;
   margin-left: 30px;
   margin-bottom: 75px;
 }
@@ -381,4 +372,23 @@ select {
   flex-direction: column;
   justify-content: center;
   padding-left: 50px; /* Align product details next to the image */
+}
+
+.total-name,
+.total-price {
+  display: inline-block; /* Ensure they're treated as inline elements */
+}
+
+.divider-shop {
+  flex: 1;
+  border: none;
+  border-top: 3px solid #333;
+  margin-left: 475px;
+}
+
+/* possibly take it this out if you are running into aligments in the future this is
+just to help make double choclate (photo that wasnt aligning at the time) 
+ align with the shopping cart image that was above for HW 2 and 3 */
+.shop-cart-everything-to-move-long-text {
+  margin-left: 80px;
 }
