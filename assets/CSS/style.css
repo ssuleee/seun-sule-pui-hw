@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  height: 100px;
+  /* what in the div will sit next to each other  */
+  display: flex;
+  justify-content: space-around;
+  /* pushes the two div to the center */
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.apple-img {
+  width: 200px;
+}
+
+ul li a {
+  padding: 0 20px;
+  text-decoration: none;
+  color: #3a3a3a;
+}
+
+li a:hover {
+  color: black;
+}
