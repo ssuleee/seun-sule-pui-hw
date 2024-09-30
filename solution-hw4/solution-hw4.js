@@ -14,7 +14,6 @@ const rollType = params.get("roll");
 let cartBotton = [];
 let originalPrice = 0;
 
-// Function to refresh product details
 function refreshPd() {
   const rollData = rolls[rollType];
 
@@ -36,7 +35,6 @@ function refreshPd() {
   }
 }
 
-// Function to show dropdown options for glazing and packing
 function showDropdown() {
   const glazeDropdown = document.getElementById("glazing");
   const packDropdown = document.getElementById("pack-size");
@@ -46,17 +44,17 @@ function showDropdown() {
 
   glazeChoice.forEach((glaze) => {
     const option = document.createElement("option");
-    option.value = glaze.price; // You can keep this for reference
+    option.value = glaze.price;
     option.textContent = glaze.description;
-    option.dataset.price = glaze.price; // Add price as a data attribute
+    option.dataset.price = glaze.price;
     glazeDropdown.appendChild(option);
   });
 
   packingSize.forEach((pack) => {
     const option = document.createElement("option");
-    option.value = pack.increase; // You can keep this for reference
+    option.value = pack.increase;
     option.textContent = pack.size;
-    option.dataset.increase = pack.increase; // Add increase as a data attribute
+    option.dataset.increase = pack.increase;
     packDropdown.appendChild(option);
   });
 
@@ -64,7 +62,6 @@ function showDropdown() {
   packDropdown.addEventListener("change", updatePrice);
 }
 
-// Function to update price based on selected options
 function updatePrice() {
   const glazeDropdown = document.getElementById("glazing");
   const packDropdown = document.getElementById("pack-size");
@@ -83,7 +80,6 @@ function updatePrice() {
   priceElement.textContent = `$${finalPrice.toFixed(2)}`;
 }
 
-// Function to add selected roll to cart
 function addToCart() {
   const glazeDropdown = document.getElementById("glazing");
   const packDropdown = document.getElementById("pack-size");
@@ -93,7 +89,6 @@ function addToCart() {
   const selectedPackSize =
     packDropdown.options[packDropdown.selectedIndex].text;
 
-  // Get the price directly from the data attributes
   const selectedGlazePrice = Number(
     glazeDropdown.options[glazeDropdown.selectedIndex].dataset.price
   );
@@ -101,11 +96,9 @@ function addToCart() {
     packDropdown.options[packDropdown.selectedIndex].dataset.increase
   );
 
-  // Calculate the final price
   const finalPrice =
     (originalPrice + selectedGlazePrice) * selectedPackIncrease;
 
-  // Create a new instance of Roll
   const newRoll = new Roll(
     rollType,
     selectedGlazeDescription,
@@ -113,14 +106,11 @@ function addToCart() {
     finalPrice
   );
 
-  // Add to cart
   cartBotton.push(newRoll);
 
-  // Print the entire cart array to the console
   console.log(cartBotton);
 }
 
-// Add event listener to the "Add to Cart" button with the class
 const addToCartButton = document.querySelector(".add-to-cart");
 addToCartButton.addEventListener("click", addToCart);
 

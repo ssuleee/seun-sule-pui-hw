@@ -7,6 +7,7 @@
   width: 400px;
 }
 
+/* i changed this so that it could fit in a row and column for 1200px like TA asked, before it was 400px */
 .orginal-product-page-img {
   width: 300px;
 }
@@ -19,7 +20,6 @@
   width: 200px;
 }
 
-/* Center the image in its container */
 .orginal-product-page-img,
 .orginal-bunbun-product-details-img,
 .orginal-product-gallery-img {
@@ -111,7 +111,7 @@ select {
 
 .checkout {
   display: block;
-  margin-left: auto; /* Push the checkout button to the right */
+  margin-left: auto;
   background-color: white;
   color: black;
   border: 2px solid black;
@@ -319,9 +319,9 @@ select {
   text-align: left;
 }
 
-/* the width helps me size the image to make it bigger or smaller */
+/* the width helps me size the image to make it bigger or smaller */ /* i changed this so that it could fit in a row and column for 1200px like TA asked, before it was 400px */
 .orginal-product-page-img {
-  width: 400px;
+  width: 300px;
   height: auto;
 }
 
@@ -353,15 +353,15 @@ select {
 .shop-cart-everything {
   display: flex;
   flex-direction: row;
-  justify-content: center; /* Center the content horizontally */
-  align-items: center; /* Vertically center the content */
+  justify-content: center;
+  align-items: center;
   padding: 10px;
 }
 
 .product-page-price-flex {
   display: flex;
   justify-content: center;
-  align-items: center; /* Center the price flex vertically */
+  align-items: center;
   padding: 0 20px;
   margin-left: 30px;
   margin-bottom: 75px;
@@ -371,19 +371,19 @@ select {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-left: 50px; /* Align product details next to the image */
+  padding-left: 50px;
 }
 
 .total-name,
 .total-price {
-  display: inline-block; /* Ensure they're treated as inline elements */
+  display: inline-block;
 }
 
 .divider-shop {
   flex: 1;
   border: none;
   border-top: 3px solid #333;
-  margin-left: 475px;
+  margin-left: 325px;
 }
 
 /* possibly take it this out if you are running into aligments in the future this is
