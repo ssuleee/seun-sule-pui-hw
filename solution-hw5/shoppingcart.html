@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="CSS/style.css" />
+    <script defer src="rollsData.js"></script>
+    <script defer src="solution-hw5.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo-line-break-container">
+        <div class="logo-container">
+          <a href="index.html" class="logo">
+            <img
+              src="../assets/logo/logo-01.svg"
+              alt="Bun Bun logo"
+              class="logo-img"
+            />
+          </a>
+        </div>
+
+        <div class="navagation-container">
+          <nav class="navagation-bar">
+            <ul class="navagation-list">
+              <li class="navagation-item">
+                <a href="index.html" class="navagation-linking">PRODUCTS</a>
+              </li>
+              <li class="navagation-item">
+                <a href="shoppingcart.html" class="navagation-linking">CARTS</a>
+              </li>
+            </ul>
+          </nav>
+          <hr class="divider" />
+        </div>
+        <br />
+      </div>
+    </header>
+
+    <div class="original-sentence-right-under-cart-text">
+      <p>Our hand-made cinnamon rolls</p>
+    </div>
+
+    <main class="cart-page-all-together">
+      <template id="cart-template">
+        <div class="shop-cart-everything">
+          <div class="remove-with-picture">
+            <img
+              src="../assets/products/original-cinnamon-roll.jpg"
+              class="orginal-product-gallery-img"
+            />
+            <div class="remove-text-under-picture">
+              <p>Remove</p>
+            </div>
+          </div>
+
+          <!-- putting eveyrhting into a container -->
+          <div class="product-page-flex">
+            <div class="original-under-image-shopping-cart-text">
+              <p class="product-name"></p>
+              <p class="glazing-original"></p>
+              <p class="pack-size-original"></p>
+            </div>
+          </div>
+
+          <div class="product-page-price-flex">
+            <p class="price-number"></p>
+          </div>
+        </div>
+      </template>
+
+      <hr class="divider-shop" />
+
+      <div class="container">
+        <div class="total-name">
+          <p>Total</p>
+        </div>
+        <div class="total-price">
+          <p class="final-cart-price"></p>
+        </div>
+        <button class="checkout">Checkout</button>
+      </div>
+    </main>
+  </body>
+</html>

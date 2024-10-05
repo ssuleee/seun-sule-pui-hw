@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Product Detail Page</title>
+  <link rel="stylesheet" href="CSS/style.css">
+  <script defer src="rollsData.js"></script>
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="logo-line-break-container">
+            <div class = "logo-container">
+             <a href="index.html" class="logo">
+                 <img src="../assets/logo/logo-01.svg" alt="Bun Bun logo" class="logo-img" />
+             </a>
+            </div>
+                 
+             <div class="navagation-container">
+                 <nav class="navagation-bar">
+                     <ul class="navagation-list">
+                         <li class="navagation-item">
+                             <a href="index.html" class="navagation-linking">PRODUCTS</a>
+                         </li>
+                         <li class="navagation-item">
+                             <a href="shoppingcart.html" class="navagation-linking">CARTS</a>
+                         </li>
+                     </ul>
+                 </nav>
+                 <hr class="divider" />
+             </div>
+             <br>
+             
+         </div>
+    </header>
+
+  
+    <div class="original-sentence-right-under-cart-text">
+    <p> Original cinnamon roll</p>
+  </div>
+
+  
+<!-- puts everything into a container -->
+<div class="everything-wrapped">
+
+<div class="picture-content">
+<img src="../assets/products/original-cinnamon-roll.jpg" class="orginal-bunbun-product-details-img"/>
+</div>
+
+<div class="right-wrapped">
+<div class="original-products-details-text">
+<p> Customize our delicious,</p>
+<p> hand-made cinnamon roll to</p>
+<p> your likng! </p>
+</div>
+
+
+<!-- learned to create a dropdown from w3schools -->
+
+<div class="dropdown-container">
+    <label for="Glazing">Glazing:</label>
+
+    <select name="Glazing" id="glazing">
+    </select>
+
+    <label for="pack-size">Pack size:</label>
+
+    <select name="pack-size-select" id="pack-size">
+    </select>
+</div>
+
+<div class="add-box-together">
+    <p>$2.49</p> 
+    <button class="add-to-cart">Add to Cart</button>
+</div>
+
+</body>
+</html>
