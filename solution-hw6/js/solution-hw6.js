@@ -102,14 +102,16 @@ function addToCart() {
   );
   cart.push(newRoll);
   localStorage.setItem("cart", JSON.stringify(cart));
-  console.log(cart); // Verify that the cart is being updated
+  console.log("Cart updated:", cart);
 }
 
 function populateCart() {
   const cartItems = JSON.parse(localStorage.getItem("cart")) || [];
+  console.log("Cart items:", cartItems);
   cartItems.forEach((item) => {
     createElement(item);
   });
+  console.log("Updating total price");
   updateTotalPrice();
 }
 
@@ -164,9 +166,13 @@ function updateTotalPrice() {
   for (const item of cart) {
     totalCheckOutPrice += item.basePrice;
   }
-  document.querySelector(
-    ".final-cart-price"
-  ).innerText = `$${totalCheckOutPrice.toFixed(2)}`;
+  console.log("Total price calculated:", totalCheckOutPrice);
+  const totalElement = document.querySelector(".final-cart-price");
+  if (totalElement) {
+    totalElement.innerText = `$${totalCheckOutPrice.toFixed(2)}`;
+  } else {
+    console.error("Total price element not found");
+  }
 }
 
 document.addEventListener("DOMContentLoaded", () => {
