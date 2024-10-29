@@ -217,7 +217,7 @@ To enhance user engagement, the design will incorporate interactive elements suc
 
 - How do you plan to make your design accessible?
 
-Accessibility will be prioritized by implementing alt text for images and utilizing semantic HTML elements throughout the website's structure.
+Accessibility will be prioritized by implementing alt text for images and utilizing semantic HTML elements throughout the website's structure. I will also be making sure to use the https://wave.webaim.org/ tool to evaluate the accessibility of my webpage.
 
 - What information do you specifically want to convey and include on your website?
 
@@ -237,7 +237,7 @@ The design will feature interactive elements such as clickable case studies high
 
 - How do you plan to make your design accessible?
 
-Accessibility will be prioritized by implementing alt text for images and utilizing semantic HTML elements throughout the website's structure.
+Accessibility will be prioritized by implementing alt text for images and utilizing semantic HTML elements throughout the website's structure. I will also be making sure to use the https://wave.webaim.org/ tool to evaluate the accessibility of my webpage.
 
 - What information do you specifically want to convey and include on your website?
 
@@ -257,7 +257,7 @@ User engagement will be enhanced through interactive elements such as clickable 
 
 - How do you plan to make your design accessible?
 
-Accessibility will be prioritized by implementing alt text for images and utilizing semantic HTML elements throughout the website's structure.
+Accessibility will be prioritized by implementing alt text for images and utilizing semantic HTML elements throughout the website's structure. I will also be making sure to use the https://wave.webaim.org/ tool to evaluate the accessibility of my webpage.
 
 - What information do you specifically want to convey and include on your website?
 
@@ -270,7 +270,9 @@ During the lab session, my classmates gave me feedback on my two website project
 I was thinking about having background photos and making the map interactive when you hover over a country. My classmates thought that was good and suggested I look into using Vega-Lite (https://vega.github.io/vega-lite/examples/geo_choropleth.html) to create the map. They also said I should color-code the regions and include both recipes and info about the most represented countries in each area. I asked how I could incorporate an API, JS library or web animation into this idea, and they encouraged me to explore those options. They also thought it would be cool if I could make the recipes downloadable or printable.
 
 For my Resell website for sneakers, I was worried about how to appeal to both buyers who want new and used sneakers. I had this idea of creating a logo with a shoe that's half old and half new, and my classmates liked that. They suggested I have two sections, one for new and one for used sneakers.
-I was thinking about how to show the condition of the shoes, and they said I should have full pictures and maybe put a condition grade above each shoe. They also thought I should add filters for shoe brands to make it easier for users to find what they want
+I was thinking about how to show the condition of the shoes, and they said I should have full pictures and maybe put a condition grade above each shoe. They also thought I should add filters for shoe brands to make it easier for users to find what they want.
+
+My portfolio will not be of focus for my final project since I already have one live. I will use the other two ideas and narrow and use that to add to my perosnal website.
 
 ## Feedback Digestion
 
@@ -278,4 +280,4 @@ Based on the feedback I received during the lab session, I've decided to focus m
 
 Making recipes downloadable or printable is another suggestion I'll definitely incorporate, as it will add practical value for users who want to try the recipes offline. While I appreciate the suggestion to look into the Eater site for inspiration, I'll be cautious about this to ensure my site maintains its unique identity. I'll use it more as a reference point rather than a direct model. I'm still considering how to best incorporate an API or JavaScript library to make the site more dynamic, which might be a feature I develop in later iterations of the project.
 
-Currently, I am leaning more towards the regions of african country feedback I got to educates users about the rich culinary diversity of the continent.
+Currently, I am leaning more towards the regions of african country feedback I got to educates users about the rich culinary diversity of the continent. I also did not focus on a portfolio as my TA suggested that the other two ideas could beneift me more since I already have a portfolio website live. I used this feedback to focus on my other two ideas.
