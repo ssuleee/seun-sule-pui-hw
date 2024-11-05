@@ -134,7 +134,7 @@ As someone who has experince not being familar with there hair texture this was 
 ![title for prototype1](../assets/ideas/hifi11.png)
 ![title for prototype1](../assets/ideas/hifi12.png)
 
-Based on the user feedback from the prototype 1 high-fidelity testing, I identified two key areas for improvement. There was multiple entry point confusion. Users expressed uncertainty about where they were entering the application. The initial interface was perceived as resembling a beauty advertisement rather than a haircare platform. This feedback helped me in understanding I need to clarify the purpose and context of my website upon entry. For the second page design, while users found the content of the second page valuable, they felt its visual design was underwhelming. This feedback helped me realized that the page lacked visual appeal and engagement, despite containing useful information.
+I changed my entire idea as I wanted to relate to my project and informed my TA of these changes. Based on the user feedback from the prototype 1 high-fidelity testing, I identified two key areas for improvement. There was multiple entry point confusion. Users expressed uncertainty about where they were entering the application. The initial interface was perceived as resembling a beauty advertisement rather than a haircare platform. This feedback helped me in understanding I need to clarify the purpose and context of my website upon entry. For the second page design, while users found the content of the second page valuable, they felt its visual design was underwhelming. This feedback helped me realized that the page lacked visual appeal and engagement, despite containing useful information.
 
 ### _Prototype 2_
 
