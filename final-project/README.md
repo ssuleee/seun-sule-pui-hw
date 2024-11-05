@@ -125,49 +125,77 @@ Remember to keep track of your prompts and usage for [FP4 writeup](#part-6-gener
 
 ## Project Description
 
-Briefly restate your motivation and a short description of your project.
+As someone who has experince not being familar with there hair texture this was something that was very improtant to me. Many woman of color who have my hair texture or thicker experince not knowing how to style it and what products to use. Liseenced stylist also dont know how to do our hair properly since it actually isnt taught in beauty school circulloum. Although its encourgaged to work on our thick hair it hard to go to stylist who can recommend proper products and do hair styles for us. This will be a good for people who have coily hair texture to learn more about how to take care of their hair.
 
 ## High-Fi Prototypes
 
 ### _Prototype 1_
 
-![title for prototype1](images/prototype1.png)
+![title for prototype1](../assets/ideas/hifi11.png)
+![title for prototype1](../assets/ideas/hifi12.png)
 
-A brief description and summary of the user feedback (\<100 words, 2 images)
+Based on the user feedback from the prototype 1 high-fidelity testing, I identified two key areas for improvement. There was multiple entry point confusion. Users expressed uncertainty about where they were entering the application. The initial interface was perceived as resembling a beauty advertisement rather than a haircare platform. This feedback helped me in understanding I need to clarify the purpose and context of my website upon entry. For the second page design, while users found the content of the second page valuable, they felt its visual design was underwhelming. This feedback helped me realized that the page lacked visual appeal and engagement, despite containing useful information.
 
 ### _Prototype 2_
 
-…
+![title for prototype1](../assets/ideas/hifi1.png)
+![title for prototype1](../assets/ideas/hifi2.png)
 
 ## Usability Test
 
-Discuss the user feedback you got during the evaluation / usability test (\~300 words). Indicate which feedback you implemented, inspired new directions, or otherwise influenced your final design.
+Based on the user feedback from my user testing, I have added new feautures to improve the application's functionality and user experience. I added a new feature that allows users to view their specific hair texture, categorized by porosity levels. To address the feedback about blandness, I incorporated an inviting background to make the interface more visually appealing. I also created an entirely new page dedicated to providing tailored recommendations for users based on their specific hair type. This page includes an explanation of the user's selected hair type from the previous page, a "View Curated List" feature offering personalized product recommendations, and an information section with detailed explanations of various hair types, such as Type 4a. I also wanted user to enjoy the walk through of learning about there hair as well, so I made the background photo curated to women of color because we usually don't proper representation of our beauty.
 
 ## Updated Designs
 
-Show screenshots of your updated design based on the user feedback (\<100 words, \~2 images).
+![title for prototype1](../assets/ideas/hifi1.png)
+![title for prototype1](../assets/ideas/hifi2.png)
+![title for prototype1](../assets/ideas/hifi3.png)
+
+The insights gained from user feedback were important to me as it helped refine my concept. I was able to align with my vision more closely with the needs and preferences of my target audience.
 
 ## Feedback Summary
 
-Summarize the feedback you received in the lab session and discuss how it influenced your design (\~300 words).
+Based on the feedback provided, my classmates suggested I create an easy-to-complete survey that helps users identify their hair type. Upon completion, the website will generate a personalized "About My Hair" page, which will include a curated list of suitable products, recommended protective styles, and an explanation of why their hair has specific characteristics. To make the experience more engaging, I'll incorporate visual elements such as coily hair images for selection, and actual hairstyle images on the recommendation page. I also plan on adding interactive features like a progress bar that animates as users scroll or click through options. To provide more detailed information, I'll include questions about hair porosity, such as whether the hair quickly absorbs water. To further enhance the user experience, I'm considering adding video content, possibly in the form of an iMovie, to demonstrate hair care techniques or styles. The lab session was super helpful as it led me to understand I can address information contact in a way for user to learn and still make it welcoming.
 
 ## Milestones
 
-Outline weekly milestones to plan your expected implementation progress until the end of the semester (\~300 words).
+- Completion of high-fidelity prototypes and user testing feedback analysis
+- Development of the initial website pages, including the hair type quiz functionality
+- Implementation of personalized hair care recommendation system
+- Final integration of all features and comprehensive testing of the entire website
 
 ### _Implementation Plan_
 
 - [ ] Week 9 Oct 28 \- Nov 1:
+
   - [x] FP1 due
-  - [ ] ...
+  - [x] Create 2 hifi on figma
+  - [x] Take notes on user feedback from user testing
+  - [x] Go to lab and get additonal feedback
+
 - [ ] Week 10 Nov 4 \- Nov 8:
 
-  - [ ] FP2 due
+  - [x] FP2 due
+  - [ ] Based of lab finalizse my hifi on figma
+  - [ ] Start coding first page of website (HTML and CSS)
 
 - [ ] Week 11 Nov 11 \- Nov 15:
+
+  - [ ] Create second page and thrid page of hair quiz with code ( I want to start incorporating JS within my code alongisde adding to my CSS and HTML)
+  - [ ] Start coding hair quiz questionare (possibly using a for loop, but will research on this)
+
 - [ ] Week 12 Nov 18 \- Nov 22:
+
+  - [ ] FP3 due
+  - [ ] Ask classmates and TA feedback with current pages
+  - [ ] Start working on last page (I will need three different hair recommendation pages)
+  - [ ] Make sure to continousally update HTML, CSS, and JS as needed
+
 - [ ] Week 13 Nov 25 \- Nov 29:
 
+  - [ ] Try and finish last two pages of hair recommendation page
+  - [ ] Add text descriptions to the hair pages after you've built template and since three of the pages will be the same but slighty different text descriptions.
+  - [ ] Make sure code passees accessibility
   - [ ] Thanksgiving
 
 - [ ] Week 14 Dec 2 \- Dec 6:
@@ -175,27 +203,25 @@ Outline weekly milestones to plan your expected implementation progress until th
 
 ### _Libraries and Other Components_
 
-List the JS libraries and other components (if applicable) that you plan to use.
+I plan to have a progress bar to make it an animation throughout the hair quiz.
 
 -
 
 ## Generative AI Use Plan
 
-Outline how you plan to use Generative AI tools to aid in the implementation (\~300 words).
+I plan to use Generative AI tools as a supportive resource throughout my website development process, while maintaining control over the core aspects of the project. In Week 10, as I begin coding the first page, I'll utilize AI to clarify complex coding concepts and suggest optimizations for my code snippets. However, I'll write the fundamental code myself to ensure a deep understanding of my website's functionality. During Week 11, while developing the hair quiz pages, I'll leverage AI to help generate question structures and logic flows, aiming for a comprehensive and user-friendly experience. I'll carefully review and adjust these AI-generated suggestions based on my hair care expertise. For the recommendation pages in Weeks 12 and 13, I may use AI to create initial content descriptions for various hair types and care routines. As always I will continue to review and customize this content to guarantee its accuracy and relevance to my target audience. Throughout this entire process, I will prioritize data protection, ensuring that no personal information is shared or compromised. By using AI in this manner, I aim to enhance my development process while maintaining the integrity and uniqueness of my hair care website.
 
 ### _Tool Use_
 
-What would you use? Edit the list given your plan. For each tool, explain briefly on what do you expect Generative AI to help you with and what might it not be able to help you with.
-
 - ChatGPT
-  - I will use it for … because it can help me …
-  - I will not use it for … because it might not be able to help me with …
-- GitHub Copilot
-- ...
+  - I will use it for drafting content descriptions for different hair types and care routines. It can help me generate informative and engaging explanations that I can then review and customize.
+  - I will use it for brainstorming ideas for user interface design and interactive elements, as it can provide creative suggestions for enhancing user experience.
+  - I will not use it for generating my code because it might not be able to help me with executing my vision properly.
+  - I will not use it to functionality because I want to know that I am aware of writtng the code myself.
 
 ### _Responsible Use_
 
-How would you use Generative AI responsibly?
+I plan to use AI responsibly by ensuring that I know how to write my code myself with the support of citing outside resources. This approach will help me maintain a deep understanding of my website's functionality and allow me to make informed decisions about its development. I will also be careful to ask questions that are specific and targeted, focusing on areas where AI can provide valuable insights or suggestions without taking over the core development process.
 
 ---
 
