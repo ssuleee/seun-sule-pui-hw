@@ -111,11 +111,11 @@ Document the changes and progress of your project. How have you followed or chan
 
 ## Implementation Plan Updates
 
-- [ ] ...
+- [ ] I changed the background based off of feedback from presentation. The background was suggested to be white so that users can focus and it can be visually appelaing. I also added animation effect to the title and when users go on to the next page. I also added a way for the user to go back to the main page to restart the quiz.
 
 ## Generative AI Use Plan Updates
 
-- [ ] ...
+- [ ] I've plan to use AI to help me with understanding ways I can implement my code. For example asking it what are ways to make my website more technical, or if I am having trouble with a bug issues I can ask it to help find another way that I am not seeing how to change it to work.
 
 Remember to keep track of your prompts and usage for [FP4 writeup](#part-6-generative-ai-use-and-reflection).
 

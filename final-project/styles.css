@@ -1,0 +1,349 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+.home-background,
+.texture-background {
+  background-image: url("background-image.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.header,
+.start-button {
+  background: white;
+  opacity: 70%;
+  text-align: center;
+  padding: 20px;
+  font-family: "Press Start 2P", cursive;
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  animation: fadeInDown 1.5s ease-in;
+}
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 0.7;
+    transform: translateY(0);
+  }
+}
+.start-button a {
+  color: black;
+  text-decoration: none;
+}
+
+.start-button {
+  border-radius: 25px;
+  transition: all 0.3s ease;
+  border: none;
+  cursor: pointer;
+}
+
+.start-button:hover {
+  transform: scale(1.1);
+  background-color: black;
+  color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.start-button-container {
+  margin-top: auto;
+}
+
+.texture-container {
+  display: flex;
+  animation: fadeInDown 1.5s ease-in;
+  padding-top: 80px;
+}
+.texture-container h2 {
+  font-family: "Press Start 2P", cursive;
+  font-size: 3.5rem;
+  padding-top: 80px;
+  text-align: center;
+  line-height: 2.2;
+  max-width: 450px;
+  background-color: white;
+  margin: 0;
+}
+
+.textures {
+  background-color: white;
+  width: 100vw;
+  height: 100vh;
+  /* opacity: 0.7 !important; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  flex-wrap: wrap;
+}
+
+.journey-buttons {
+  background-color: white;
+  width: 100vw;
+  height: 100vh;
+  /* opacity: 0.7 !important; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.texture {
+  width: 350px;
+  height: 300px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.texture:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.texture img {
+  width: 350px;
+  height: auto;
+  object-fit: cover;
+  transition: all 0.3s ease;
+}
+
+.texture:hover img {
+  transform: scale(1.1);
+}
+
+.journey-container {
+  display: flex;
+  animation: fadeInDown 1.5s ease-in;
+  padding-top: 80px;
+}
+.journey-container h2 {
+  font-family: "Press Start 2P", cursive;
+  font-size: 2.5rem;
+  padding-top: 80px;
+  text-align: center;
+  line-height: 3;
+  max-width: 450px;
+  background-color: white;
+  margin: 0;
+}
+
+.options {
+  background: white;
+  text-align: center;
+  padding: 50px;
+  font-family: "Press Start 2P", cursive;
+  font-size: 3rem;
+  border-radius: 99px;
+  opacity: 1;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.options:hover {
+  transform: scale(1.05);
+  background-color: #000000;
+  color: white;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.glass-image {
+  padding-top: 100px;
+  width: 700px;
+}
+
+.recommendations-container {
+  display: flex;
+  flex-direction: column;
+  animation: fadeInDown 1.5s ease-in;
+  margin-top: 80px;
+  align-items: center;
+  background-color: white;
+  opacity: 0.8 !important;
+  padding: 2rem;
+}
+
+.recommendations-title {
+  font-family: "Press Start 2P", cursive;
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.porosity-type {
+  font-family: "Press Start 2P", cursive;
+  font-size: 2rem;
+  margin: 1rem 0;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.recommendations-content {
+  display: flex;
+  gap: 5rem;
+  margin: 2rem 0;
+  align-items: center;
+}
+
+.recommendation-image {
+  width: 400px;
+  height: 400px;
+  overflow: hidden;
+}
+
+.recommendation-image img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.recommendation-text {
+  max-width: 500px;
+  font-family: "Press Start 2P", cursive;
+  font-size: 1rem;
+  line-height: 1.8;
+}
+
+.video-section {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.video-title {
+  font-family: "Press Start 2P", cursive;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.video-placeholder {
+  width: 560px;
+  height: 315px;
+  background-color: #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Press Start 2P", cursive;
+}
+
+.products-button {
+  font-family: "Press Start 2P", cursive;
+  font-size: 1.5rem;
+  padding: 1rem 2rem;
+  background: white;
+  border: none;
+  border-radius: 99px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  text-decoration: none;
+  color: black;
+}
+
+.products-button:hover {
+  transform: scale(1.05);
+}
+.video-section iframe {
+  margin-top: 2rem;
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.progress-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background: white;
+  /* opacity: 0.8; */
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  /* z-index: 3px; */
+  padding-left: 200px;
+}
+
+.progress-step {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Press Start 2P", cursive;
+  font-size: 1rem;
+  color: black;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.progress-line {
+  height: 3px;
+  background: #ddd;
+  flex-grow: 1;
+  margin: 0 10px;
+}
+
+/* Active states for each page */
+body:has(.texture-container) .progress-step:nth-child(1),
+body:has(.journey-container) .progress-step:nth-child(3),
+body:has(.recommendations-container) .progress-step:nth-child(5) {
+  background: #000;
+  color: white;
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Completed steps */
+body:has(.journey-container) .progress-step:nth-child(1),
+body:has(.recommendations-container) .progress-step:nth-child(1),
+body:has(.recommendations-container) .progress-step:nth-child(3) {
+  background: #4caf50;
+  color: white;
+}
+
+/* Completed lines */
+body:has(.journey-container) .progress-line:nth-child(2),
+body:has(.recommendations-container) .progress-line:nth-child(2),
+body:has(.recommendations-container) .progress-line:nth-child(4) {
+  background: #4caf50;
+}
+
+.progress-step:hover {
+  transform: scale(1.1);
+  background: #000;
+  color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.home-button {
+  background: transparent;
+  position: fixed;
+  top: 16px;
+  left: 18px;
+  padding: 15px 30px;
+  font-family: "Press Start 2P", cursive;
+  font-size: 1rem;
+  color: black;
+  opacity: 0.8;
+  transition: all 0.3s ease;
+  z-index: 1000;
+  cursor: pointer;
+}
+
+.home-button:hover {
+  transform: scale(1.1);
+  background: #000;
+  color: white;
+  opacity: 1;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}

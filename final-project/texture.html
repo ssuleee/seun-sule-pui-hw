@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hair Journey - Screen 2</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js"></script>
+  </head>
+  <body class="texture-background">
+    <button onclick="window.location.href='index.html'" class="home-button">
+      HOME
+    </button>
+    <div class="progress-container">
+      <a href="texture.html" class="progress-step">1</a>
+      <div class="progress-line"></div>
+      <a href="journey.html" class="progress-step">2</a>
+      <div class="progress-line"></div>
+      <a href="high_porosity.html" class="progress-step">3</a>
+    </div>
+    <section class="texture-container">
+      <h2 id="typed">Select Your Hair Texture :)</h2>
+      <div class="textures">
+        <a href="journey.html" data-hair-type="4a">
+          <div class="texture">
+            <img src="4a hair.jpeg" alt="4a Hair" />
+          </div>
+        </a>
+        <a href="journey.html" data-hair-type="4b">
+          <div class="texture">
+            <img src="4b hair.jpeg" alt="4b Hair" />
+          </div>
+        </a>
+        <a href="journey.html" data-hair-type="4c">
+          <div class="texture">
+            <img src="4c hair.jpeg" alt="4c Hair" />
+          </div>
+        </a>
+      </div>
+    </section>
+  </body>
+</html>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+<script>
+  const title = document.querySelector("#typed");
+  // Wrap each character in a span
+  title.innerHTML = title.textContent.replace(/\S/g, "<span>$&</span>");
+
+  gsap.fromTo(
+    "#typed span",
+    { opacity: 0, y: 20 },
+    { opacity: 1, y: 0, duration: 0.5, stagger: 0.1, ease: "power2.out" }
+  );
+</script>
