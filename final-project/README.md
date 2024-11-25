@@ -12,6 +12,8 @@ Feel free to refer to this [Markdown Cheat Sheet](https://www.markdownguide.org/
 
 Describe your website (300 words).
 
+My website is a short quiz with people in colors hair textures in mind. Often times we are forgotten in the beauty industry so I wanted to create an experince for our hair care. I made the transitions slower so that indivduals can remember there going through black girl experince.
+
 - What is the purpose of your website?
 - Who is the target audience?
 - What information do you convey with your website?
