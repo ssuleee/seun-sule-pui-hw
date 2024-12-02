@@ -307,7 +307,7 @@ body:has(.recommendations-container) .progress-step:nth-child(5) {
 body:has(.journey-container) .progress-step:nth-child(1),
 body:has(.recommendations-container) .progress-step:nth-child(1),
 body:has(.recommendations-container) .progress-step:nth-child(3) {
-  background: #4caf50;
+  background: #214922;
   color: white;
 }
 
