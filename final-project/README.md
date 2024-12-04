@@ -10,100 +10,117 @@ Feel free to refer to this [Markdown Cheat Sheet](https://www.markdownguide.org/
 
 ## Part 1: Website Description
 
-Describe your website (300 words).
+My website is a unique and empowering platform designed to celebrate and cater to the diverse beauty of Black women's hair. The primary purpose of this website is to provide a personalized hair care experience through an interactive quiz that focuses on various hair textures often overlooked in the mainstream beauty industry.
 
-My website is a short quiz with people in colors hair textures in mind. Often times we are forgotten in the beauty industry so I wanted to create an experince for our hair care. I made the transitions slower so that indivduals can remember there going through black girl experince.
+The target audience is specifically Black women and individuals with textured hair who have felt underrepresented in traditional beauty spaces. This website aims to create an inclusive environment where users can find tailored advice and product recommendations that truly understand and address their specific hair care needs.
 
-- What is the purpose of your website?
-- Who is the target audience?
-- What information do you convey with your website?
-- How is it interesting and engaging?
+Through the quiz, it educates users on proper hair maintenance, styling techniques, and product selection based on their individual hair characteristics. What makes this website particularly interesting and engaging is its thoughtful design and user experience. The quiz features intentionally slower transitions between questions, creating a reflective and immersive journey that allows users to connect with their hair care experience on a deeper level. This pacing encourages users to truly consider each aspect of their hair and its needs, fostering a sense of self-appreciation and mindfulness.
 
 ## Part 2: User Interaction
 
-How a user would interact with your website? For each step, briefly but clearly state the interaction type & how we should reproduce it.
+1. Initial Page Load and Start
 
-1. Interaction type. Click on X on page Y / scroll on page X, etc.
-2.
+   - Interaction type: Page load and button click
+   - Reproduction:
+     - Open the index.html page in a web browser
+     - Locate and click the "Start Now" button on the page
+
+2. Quiz Navigation
+
+   - Interaction type: Multiple choice selection and conditional page routing
+   - Reproduction:
+     - Answer the quiz questions by selecting either "Yes" or "No" options
+     - Based on the answers, the user will be automatically directed to either:
+       - low_porosity.html (if answers indicate low porosity)
+       - high_porosity.html (if answers indicate high porosity)
+
+3. Porosity Page Interaction
+
+- Interaction type: Video playback and external link navigation
+  - Reproduction:
+  - On the porosity page (either low or high), locate the embedded YouTube video
+  - Play the video to watch hair care information
+  - Find the "Product Recommendations" button or link
+  - Click on the "Product Recommendations" to open a new tab or window
+  - The new page will display product recommendations tailored to the user's hair porosity type
+
+4.
 
 ## Part 3: External Tool
 
-Describe what important external tool you used (JavaScript library, Web API, animations, or other). Following the bulleted list format below, reply to each of the prompts.
+1. GSAP (GreenSock Animation Platform)
 
-1. Name of tool1
-   - Why did you choose to use it over other alternatives? (2 sentences max)
-   - How you used it? (2 sentences max)
-   - What does it add to your website? (2 sentences max)
-2. Name of tool2
+   - I chose GSAP for its flexible animation capabilities, which allow me to create smooth and engaging transitions in my web application. I thought it was nice that it provided cross-browser compatibility which made it useful for creating the interactive experience I envisioned for my hair quiz website.
+   - I implemented GSAP by including the minified JavaScript file from a CDN link in my HTML. This allows me to use GSAP's animation methods and timeline features throughout my website .
+   - I added GSAP to my website by because it added a sense of creativity and inspiring new change to my entire website with animations.
+
+2. Google Fonts (Press Start 2P)
+   - I chose the "Press Start 2P" font from Google Fonts to give my website a unique, retro-inspired aesthetic that aligns with the welcoming nature of my hair quiz.
+   - I implemented this font by importing it using a CSS @import rule at the top of my styles.css file.
+   - This custom font adds a visual style to my website, i thought it would appeal and make the text elements more engaging for users as they progress through the hair quiz.
 
 ## Part 4: Design Iteration
 
-Describe how you iterated on your prototypes, if at all, including any changes you made to your original design while you were implementing your website and the rationale for the changes. (4-8 sentences max)
+During the implementation of my website, I made several iterations to improve the user experience and functionality. I began with using my figma mockups from FP2 as guide and as i created the site and got feedback i was told that using a plain white background at the start of the quiz to minimize distractions would help user. To enhance navigation, I added a home button, allowing users to easily return to the beginning of the quiz. I also incorporated more animations to make the interface more engaging.
+
+Recognizing the need for clarity, I also introduced a imaage on hair porosity portion of the quiz, helping users better understand this crucial quiz question. The development process involved 3-4 iterations before reaching the final product. Lastly, based on usability testing, I improved accessibility by adding alt text for images and using darker colors for progress bar between quiz steps, making the progression more visually apparent.
 
 ## Part 5: Implementation Challenge
 
-What challenges did you experience in implementing your website? (2-4 sentences max)
+Implementing a visually appealing design that accurately reflects the goals for people with textured hair was a significant challenge for me. Balancing aesthetics with functionality required careful consideration of color schemes, typography, and layout to create an engaging user experience. The progress bar was initially difficult to implement, but resources like W3Schools provided valuable guidance in overcoming this hurdle. Creating a design that resonates with my target audience while maintaining usability and visual appeal was a complex task that required iterative refinement and attention to detail.
 
 ## Part 6: Generative AI Use and Reflection
 
-Describe how you used Generative AI tools to create this final project (fill in the following information, write \~500 words in total).
-
-Document your use of all GenAI tools — ChatGPT, Copilot, Claude, Cursor, etc. using the template below. Add/Delete rows or bullet points if needed, and replace Tool1/Tool2 with the name of the tool.
+I used Perplexity to help me with my project. As I received feedback from my peers, I found it sometimes challenging to accurately translate my thoughts into code. However, I challenged myself to overcome these difficulties. I watched videos that demonstrated similar features to what I wanted for my website, which helped me understand how to implement certain functionalities. This approach of combining AI assistance with self-directed learning through video tutorials was prettyeffective in helping me complete my project while also improving my coding skills.
 
 ### Usage Experiences by Project Aspects
 
-Feel free to edit the column \_ (other?) or add more columns if there's any other aspect in your project you've used the GenAI tools for.
-
-For the following aspects of your project, edit the corresponding table cell to answer:
-
-- _Usage_: Whether you used / did not use this tool for the aspect. Enter [Yes/No]
-- _Productivity_: Give a rating on whether this tool makes your productivity for X aspect [1-Much Reduced, 2-Reduced, 3-Slightly Reduced, 4-Not Reduced nor Improved, 5-Slightly Improved, 6-Improved, 7-Much Improved].
-
-| Tool Name | Ratings      | design | plan   | write code | debug  | \_ (other?) |
-| :-------- | :----------- | :----- | :----- | :--------- | :----- | :---------- |
-| Tool1     | Usage        | Yes/No | Yes/No | Yes/No     | Yes/No | Yes/No      |
-| Tool1     | Productivity | 1~7    | 1~7    | 1~7        | 1~7    | 1~7         |
-| Tool2     | Usage        | Yes/No | Yes/No | Yes/No     | Yes/No | Yes/No      |
-| Tool2     | Productivity | 1~7    | 1~7    | 1~7        | 1~7    | 1~7         |
+| Tool Name  | Ratings      | design | plan | write code | debug | \_ (other?) |
+| :--------- | :----------- | :----- | :--- | :--------- | :---- | :---------- |
+| Perplexity | Usage        | Yes    | Yes  | Yes        | Yes   | No          |
+| Perplexity | Productivity | 5      | 6    | 6          | 5     | N/A         |
 
 ### Usage Reflection
 
 > Impact on your design and plan
 
 - It matched my expectations and plan in [FP2](#generative-ai-use-plan) in that … For example,
-  1. Tool1:
+  1. Perplexity: was super useful for debugging and getting a understand of what would be the best way to go about my code. Sometimes I found myself having long lines of code but it was helpful to find a shorter way and understanding it.
   2. Tool2:
 - It did not match my expectations and plan in [FP2](#generative-ai-use-plan) in that … For example,
-  1. Tool1:
+  1. Perplexity: I thought I needed it more but since I challenged myself to use resources like w3schools, google, and youtube, I found that more helpful. Perplexity was used when I might have hit a roadblock but I was able to keep myself together and learn while creating a website for a topic I enjoyed.
   2. Tool2:
 - GenAI tool did/did not influence my final design and implementation plan because … For example,
-  1. Tool1:
+  1. Perplexity: I depended heavily on my peer feedback and my orginial design goals to help guide my website. As I got feedback I changed design rather then let Perplexity change it for me. This allowed me to keep my creative outlook on my project.
   2. Tool2:
 
 > Use patterns
 
 - I accepted the generations when … For example,
-  1. Tool1: this tool once suggested … and I adjusted my design according to the suggestion because …
+  1. Perplexity: this tool once suggested I adjusted my alt text to be more descriptive according to the suggestion I changed it because it would be more accesible for those using screen reader, and etc.
   2. Tool2:
 - I critiqued/evaluated the generated suggestions by … For example,
-  1. Tool1: this tool once suggested … but I modified/rejected the suggestion because …
+  1. Perplexity: this tool once suggested use a dark theme for my progress bar but I rejected as it doesn't help with usuability.
   2. Tool2:
 
 > Pros and cons of using GenAI tools
 
 - Pros
-  1. Tool1:
-  2. Tool2:
+  1. Perplexity: It was helpful when it came to debugging and coming up with additonal ways for me to figure out different animations I could use.
 - Cons
-  1. Tool1:
-  2. Tool2:
+  1. Perplexity: It sometimes changed everything I did and didnt properly convey what I needed helped with.
 
 ### Usage Log
 
-Document the usage logs (prompts and chat history links) for the GenAI tools you used. Some tools may not have an easy way to share usage logs, just try your best! Some instructions for different tools:
+![title for usage](../assets/ideas/perplexity.png)
 
-1. [ChatGPT](https://help.openai.com/en/articles/7925741-chatgpt-shared-links-faq) / [Gemini](https://support.google.com/gemini/answer/13743730?hl=en&co=GENIE.Platform%3DDesktop): share the anonymous link to all of your chat histories relevant to this project
-2. [GitHub Copilot (VSCode)](<https://code.visualstudio.com/docs/copilot/copilot-chat#:~:text=You%20can%20export%20all%20prompts%20and%20responses%20for%20a%20chat%20session%20in%20a%20JSON%20file%20with%20the%20Chat%3A%20Export%20Session...%20command%20(workbench.action.chat.export)%20in%20the%20Command%20Palette.>): export chat histories relevant to this project.
+### Appendix
+
+![title for wave](../assets/ideas/Wave1.png)
+![title for wave](../assets/ideas/Wave2.png)
+![title for wave](../assets/ideas/Wave3.png)
+![title for wave](../assets/ideas/Wave4.png)
+![title for wave](../assets/ideas/Wave5.png)
 
 ---
 
