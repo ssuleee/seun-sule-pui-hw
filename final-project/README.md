@@ -122,42 +122,8 @@ I'm uncertain about whether refreshing the page or starting a new session affect
 To illustrate how I used Perplexity, I've included my latest submission as an example. This demonstrates the kind of queries and assistance I sought from the AI tool during my project development.
 Using Perplexity throughout my project helped me tackle various challenges, from conceptual questions to specific coding issues. Its ability to provide context-aware responses based on my project's progression was particularly useful in maintaining consistency and building upon previous work.
 
-.progress-container {
-display: flex;
-justify-content: center;
-align-items: center;
-padding: 20px;
-background: white;
-position: fixed;
-top: 0;
-left: 0;
-right: 0;
-}
-
-.progress-step {
-width: 40px;
-height: 40px;
-border-radius: 50%;
-background: #ddd;
-display: flex;
-align-items: center;
-justify-content: center;
-font-family: "Press Start 2P", cursive;
-font-size: 1rem;
-color: black;
-text-decoration: none;
-transition: all 0.3s ease;
-}
-
-/_ Active states for each page _/
-body:has(.texture-container) .progress-step:nth-child(1),
-body:has(.journey-container) .progress-step:nth-child(3),
-body:has(.recommendations-container) .progress-step:nth-child(5) {
-background: #000;
-color: white;
-transform: scale(1.1);
-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-}
+![title for usage](../assets/ideas/perplexity1.png)
+![title for usage](../assets/ideas/perplexity2.png)
 
 ### Appendix
 
