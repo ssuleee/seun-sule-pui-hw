@@ -85,23 +85,24 @@ I used Perplexity to help me with my project. As I received feedback from my pee
 > Impact on your design and plan
 
 - It matched my expectations and plan in [FP2](#generative-ai-use-plan) in that … For example,
+
   1. Perplexity: was super useful for debugging and getting a understand of what would be the best way to go about my code. Sometimes I found myself having long lines of code but it was helpful to find a shorter way and understanding it.
-  2. Tool2:
+
 - It did not match my expectations and plan in [FP2](#generative-ai-use-plan) in that … For example,
+
   1. Perplexity: I thought I needed it more but since I challenged myself to use resources like w3schools, google, and youtube, I found that more helpful. Perplexity was used when I might have hit a roadblock but I was able to keep myself together and learn while creating a website for a topic I enjoyed.
-  2. Tool2:
+
 - GenAI tool did/did not influence my final design and implementation plan because … For example,
   1. Perplexity: I depended heavily on my peer feedback and my orginial design goals to help guide my website. As I got feedback I changed design rather then let Perplexity change it for me. This allowed me to keep my creative outlook on my project.
-  2. Tool2:
 
 > Use patterns
 
 - I accepted the generations when … For example,
+
   1. Perplexity: this tool once suggested I adjusted my alt text to be more descriptive according to the suggestion I changed it because it would be more accesible for those using screen reader, and etc.
-  2. Tool2:
+
 - I critiqued/evaluated the generated suggestions by … For example,
   1. Perplexity: this tool once suggested use a dark theme for my progress bar but I rejected as it doesn't help with usuability.
-  2. Tool2:
 
 > Pros and cons of using GenAI tools
 
