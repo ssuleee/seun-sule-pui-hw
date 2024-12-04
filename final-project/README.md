@@ -114,13 +114,63 @@ I used Perplexity to help me with my project. As I received feedback from my pee
 
 ![title for usage](../assets/ideas/perplexity.png)
 
+Throughout my project, I relied heavily on Perplexity as I found it more helpful than other AI tools I had used in my classes. I utilized Perplexity from the beginning of my project until its completion. One advantage I noticed is that Perplexity seems to save my data within my account, allowing for some continuity in my queries.
+
+However, the data retention appears to be selective. For instance, when I search for "hair" in my query history, it only displays the two most recent submissions related to that topic. This selective history could be due to the way Perplexity manages user data or updates its database.
+I'm uncertain about whether refreshing the page or starting a new session affects the saved data. It's possible that initiating a new submission might reset or update the available history.
+
+To illustrate how I used Perplexity, I've included my latest submission as an example. This demonstrates the kind of queries and assistance I sought from the AI tool during my project development.
+Using Perplexity throughout my project helped me tackle various challenges, from conceptual questions to specific coding issues. Its ability to provide context-aware responses based on my project's progression was particularly useful in maintaining consistency and building upon previous work.
+
+.progress-container {
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 20px;
+background: white;
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+}
+
+.progress-step {
+width: 40px;
+height: 40px;
+border-radius: 50%;
+background: #ddd;
+display: flex;
+align-items: center;
+justify-content: center;
+font-family: "Press Start 2P", cursive;
+font-size: 1rem;
+color: black;
+text-decoration: none;
+transition: all 0.3s ease;
+}
+
+/_ Active states for each page _/
+body:has(.texture-container) .progress-step:nth-child(1),
+body:has(.journey-container) .progress-step:nth-child(3),
+body:has(.recommendations-container) .progress-step:nth-child(5) {
+background: #000;
+color: white;
+transform: scale(1.1);
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
 ### Appendix
 
 ![title for wave](../assets/ideas/Wave1.png)
 ![title for wave](../assets/ideas/Wave2.png)
 ![title for wave](../assets/ideas/Wave3.png)
-![title for wave](../assets/ideas/Wave4.png)
+![title for wave](../assets/ideas/Wave6.png)
 ![title for wave](../assets/ideas/Wave5.png)
+![title for wave](../assets/ideas/Wave11.png)
+![title for wave](../assets/ideas/Wave12.png)
+![title for wave](../assets/ideas/Wave13.png)
+![title for wave](../assets/ideas/Wave14.png)
+![title for wave](../assets/ideas/Wave15.png)
 
 ---
 
