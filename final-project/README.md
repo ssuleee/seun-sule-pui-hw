@@ -124,6 +124,7 @@ Using Perplexity throughout my project helped me tackle various challenges, from
 
 ![title for usage](../assets/ideas/perplexity1.png)
 ![title for usage](../assets/ideas/perplexity2.png)
+![title for usage](../assets/ideas/perplexity3.png)
 
 ### Appendix
 
