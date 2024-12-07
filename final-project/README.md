@@ -115,9 +115,7 @@ I used Perplexity to help me with my project. As I received feedback from my pee
 
 ![title for usage](../assets/ideas/perplexity.png)
 
-Throughout my project, I relied heavily on Perplexity as I found it more helpful than other AI tools I had used in my classes. I utilized Perplexity from the beginning of my project until its completion. One advantage I noticed is that Perplexity seems to save my data within my account, allowing for some continuity in my queries.
-
-However, the data retention appears to be selective. For instance, when I search for "hair" in my query history, it only displays the two most recent submissions related to that topic. This selective history could be due to the way Perplexity manages user data or updates its database.
+Throughout my project, I relied heavily on Perplexity as I found it more helpful than other AI tools I had used in my classes. One advantage I noticed is that Perplexity seems to save my data within my account, allowing for me to go back. However, the data retention appears to be selective. For instance, when I search for "hair" in my query history, it only displays the two most recent submissions related to that topic. This selective history could be due to the way Perplexity manages user data or updates its database.
 I'm uncertain about whether refreshing the page or starting a new session affects the saved data. It's possible that initiating a new submission might reset or update the available history.
 
 To illustrate how I used Perplexity, I've included my latest submission as an example. This demonstrates the kind of queries and assistance I sought from the AI tool during my project development.
